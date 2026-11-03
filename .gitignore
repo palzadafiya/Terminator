@@ -1,0 +1,51 @@
+# ==========================================
+# Terminator .gitignore
+# ==========================================
+
+# Compiled binaries and executables
+terminator
+test_harness
+test_check_x
+
+# Object files & archives
+*.o
+*.a
+*.so
+*.dylib
+
+# Debug symbols
+*.dSYM/
+*.gcda
+*.gcno
+gmon.out
+
+# Scratch test scripts and binaries
+tab1
+tab1.cpp
+tab2
+tab2.cpp
+
+# Excluded test files (only tests/harness.c is tracked)
+tests/check_x.c
+tests/sample.terminatorrc
+tests/smoke_gui.sh
+
+# Internal agent specifications
+AGENTS.md
+
+# Terminator runtime persistent data
+.terminator_history
+.terminatorrc
+*.tmp
+
+# OS & Editor files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
